@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/igormfa2/public_html/leno
+    - /bin/cp -R * $DEPLOYPATH
